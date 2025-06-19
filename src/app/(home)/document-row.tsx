@@ -1,9 +1,8 @@
 import {TableCell, TableRow} from "@/components/ui/table";
 import {Doc} from "../../../convex/_generated/dataModel";
 import {SiGoogledocs} from "react-icons/si"
-import { BuildingIcon, CircleUserIcon, MoreVertical } from "lucide-react";
+import { BuildingIcon, CircleUserIcon} from "lucide-react";
 import {format} from 'date-fns';
-import { Button } from "@/components/ui/button";
 import { DocumentMenu } from "./document-menu";
 import { useRouter } from "next/navigation";
 
